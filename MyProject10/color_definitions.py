@@ -9,23 +9,23 @@ color_ranges = {
 # Renk ve şekil oranlarını tanımlayın
 dish_ratios = {
     'green': {
-        'soup': 0.74,
-        'cheese platter': 1.37,
-        'garlic': 2.0,
+        'Soup': 0.74,
+        'Cheese_Platter': 1.37,
+        'Garlic': 2.0,
     },
     'red': {
-        'chicken': 1.0,
-        'fish': 3.0,
-        'omelet': 11.97,
+        'Chicken': 1.0,
+        'Fish': 3.0,
+        'Omelet': 11.97,
     },
     'blue': {
-        'meatballs': 0.69,
-        'fajitas': 1.39,
-        'casserole': 2.10,
+        'Meatballs': 0.69,
+        'Fajitas': 1.39,
+        'Casserole': 2.10,
     },
     'yellow': {
-        'souffle': 0.69,
-        'tiramisu': 1.4,
-        'cheesecake': 2.1,
+        'Souffle': 0.69,
+        'Tiramisu': 1.4,
+        'Cheesecake': 2.1,
     }
 }
