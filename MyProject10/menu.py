@@ -5,19 +5,19 @@ from color_definitions import dish_ratios
 def create_menu():
     starters = FoodGroup("Starters", [
         Dish("Soup", "green", "square", 15),
-        Dish("Cheese Platter", "green", "rectangle", 20),
-        Dish("Garlic Bread", "green", "rectangle", 10)
+        Dish("Cheese_Platter", "green", "rectangle", 20),
+        Dish("Garlic", "green", "rectangle", 10)
     ])
 
     snacks = FoodGroup("Snacks", [
-        Dish("Crispy Chicken", "red", "square", 25),
-        Dish("Fish & Chips", "red", "rectangle", 30),
-        Dish("Omlet", "red", "rectangle", 20)
+        Dish("Chicken", "red", "square", 25),
+        Dish("Fish", "red", "rectangle", 30),
+        Dish("Omelet", "red", "rectangle", 20)
     ])
 
     main_course = FoodGroup("Main Course", [
         Dish("Meatballs", "blue", "square", 35),
-        Dish("Casseroles", "blue", "rectangle", 40),
+        Dish("Casserole", "blue", "rectangle", 40),
         Dish("Fajitas", "blue", "rectangle", 45)
     ])
 
